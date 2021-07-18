@@ -156,6 +156,7 @@ body{
   justify-content: center;
   background: none;
   margin: 0 2.5px;
+  color: #9F9F9F;
 }
 
 .content__bottom__text.current{
