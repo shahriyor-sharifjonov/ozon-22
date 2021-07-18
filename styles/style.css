@@ -283,7 +283,9 @@ body{
 
 .sidebar__add__item__left{
   display: flex;
+  width: 100%;
   flex-direction: column;
+  padding-right: 6px;
 }
 
 .sidebar__add__item__input{
@@ -293,6 +295,7 @@ body{
   box-sizing: border-box;
   border-radius: 6px;
   padding-left: 10px;
+  width: 100%;
 }
 
 .sidebar__add__item__input:first-child{
@@ -669,7 +672,7 @@ body{
   background: #E4E4E4;
   border-radius: 6px;
   width: 3px;
-  height: calc(100% - 36px);
+  height: calc(100% - 25px);
   top: 15px;
 }
 
