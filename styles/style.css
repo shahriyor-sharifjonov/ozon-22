@@ -145,22 +145,29 @@ body{
   margin-left: 6px;
   border: none;
   border-radius: 6px;
+  transition: 200ms ease;
 }
 
 .header__btn:hover{
-  color: var(--secondary-bg-color);
+  background: #fff;
+  color: #00C48C;
 }
 
 .content__bottom__text{
   border: none;
-  width: 51px;
-  height: 51px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: none;
   margin: 0 2.5px;
   color: #9F9F9F;
+  transition: 200ms ease;
+}
+
+.content__bottom__text:hover{
+  color: #494A4A;
 }
 
 .content__bottom__text.current{
@@ -177,12 +184,28 @@ body{
 }
 
 .content__bottom__btn{
-  height: 51px;
-  width: 51px;
+  height: 38px;
+  width: 38px;
   background: #fff;
   border: none;
   border-radius: 6px;
   margin-left: 5px;
+  transition: 200ms ease;
+}
+
+.content__bottom__btn.gray svg{
+  fill: #999;
+}
+
+.content__bottom__btn.blue svg{
+  fill: #00498D;
+}
+
+.content__bottom__btn:hover{
+  background: #00498D;
+}
+.content__bottom__btn:hover svg{
+  fill: #fff;
 }
 
 .content__bottom__btn:first-child{
@@ -207,6 +230,24 @@ body{
   background: var(--secondary-bg-color);
   box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
   border-radius: 8px; 
+  transition: 200ms ease;
+}
+
+.sidebar__bottom__btn:hover{
+  background: #00C48C;
+  color: #fff;
+}
+
+.sidebar__bottom__btn:hover .sidebar__bottom__btn__icon{
+  background: #fff;
+}
+
+.sidebar__bottom__btn:hover .sidebar__bottom__btn__icon svg{
+  fill: #00C48C;
+}
+
+.sidebar__bottom__btn:hover .sidebar__bottom__btn__p{
+  color: #fff;
 }
 
 .sidebar__title{
@@ -329,6 +370,10 @@ body{
   margin-right: 18px;
 }
 
+.sidebar__bottom__btn__icon svg{
+  fill: #fff;
+}
+
 .sidebar__bottom__btn__p{
   margin-bottom: 0;
   color: #1A051D;
@@ -434,6 +479,16 @@ body{
   font-size: 14px;
 }
 
+.dropdown-item{
+  color: #B4B4B4;
+  transition: 200ms ease;
+}
+
+.dropdown-item:hover{
+  color: #494A4A;
+  background: none;
+}
+
 .content__title__dropdown__content .dropdown-item{
   padding: 2px 12px;
 }
@@ -483,7 +538,7 @@ body{
 .content__dropdown-2{
   background: #fff;
   border-radius: 6px;
-  height: 51px;
+  height: 38px;
   margin-left: 5px;
   display: flex;
   align-items: center;
