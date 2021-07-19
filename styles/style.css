@@ -18,6 +18,10 @@
   scrollbar-color: #00498D #E4E4E4;
 }
 
+*:focus{
+  outline: none;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
