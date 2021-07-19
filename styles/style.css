@@ -120,13 +120,16 @@ body{
 
 .header__dropdown__button{
   height: 32px;
-  width: 207px;
+  min-width: 207px;
+  width: max-content;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background: var(--secondary-bg-color);
   border-radius: 6px;
   color: var(--secondary-text-color);
+  border: none;
 }
 
 .header__dropdown__button:hover{
@@ -482,6 +485,7 @@ body{
 .dropdown-item{
   color: #B4B4B4;
   transition: 200ms ease;
+  cursor: pointer;
 }
 
 .dropdown-item:hover{
