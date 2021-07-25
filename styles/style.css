@@ -839,6 +839,10 @@ body{
   color: #9F9F9F;
 }
 
+.header__dropdown__button1{
+  min-width: 170px;
+}
+
 @media (max-width:1350px){
   .header__list{
     width: 500px;

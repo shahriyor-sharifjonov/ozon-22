@@ -14,7 +14,7 @@
         <div class="header">
         <div class="header__right-side">
           <div class="dropdown header__dropdown">
-            <button class="dropdown-toggle header__dropdown__button" type="button" data-toggle="dropdown" value="Fast">Выберите действие
+            <button class="dropdown-toggle header__dropdown__button header__dropdown__button1" type="button" data-toggle="dropdown" value="Fast">Выберите действие
               <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" value="Fast">
@@ -1265,15 +1265,13 @@
               </svg>
             </button>
             <div class="dropdown content__dropdown-2">
-              <a class="dropdown-toggle header__dropdown__button" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Показать по 10
-              </a>
-            
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Показать по 20</a>
-                <a class="dropdown-item" href="#">Показать по 30</a>
-                <a class="dropdown-item" href="#">Показать по 40</a>
-              </div>
+              <button class="dropdown-toggle header__dropdown__button header__dropdown__button2" type="button" data-toggle="dropdown" value="Показать по 10">Показать по 10
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu" value="Показать по 10">
+                  <li class="dropdown-item" onclick="dropdown2(this.innerHTML);">Показать по 10</li>
+                  <li class="dropdown-item" onclick="dropdown2(this.innerHTML);">Показать по 20</li>
+                  <li class="dropdown-item" onclick="dropdown2(this.innerHTML);">Показать по 30</li>
+                </ul>
             </div>
           </div>
           <p class="tree__bottom__p">Всего элементов 130</p>
