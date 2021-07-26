@@ -584,7 +584,7 @@ body{
   margin-bottom: 0;
   text-align: center;
   padding: 0 12px; 
-}
+} 
 
 .content__item__btn{
   background: var(--primary-color);
